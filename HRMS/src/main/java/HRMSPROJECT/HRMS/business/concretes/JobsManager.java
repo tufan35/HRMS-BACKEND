@@ -8,14 +8,14 @@ import HRMSPROJECT.HRMS.dataAccess.abstracts.JobsDao;
 import HRMSPROJECT.HRMS.entities.concretes.Jobs;
 
 @Service  
-public class JobsManagaer implements JobsService {
+public class JobsManager implements JobsService {
 
 	
 	private JobsDao jobsDao;
 	
 	
 	@Autowired
-	public JobsManagaer(JobsDao jobsDao) {
+	public JobsManager(JobsDao jobsDao) {
 		super();
 		this.jobsDao = jobsDao;
 	}
