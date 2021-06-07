@@ -6,6 +6,8 @@ import HRMSPROJECT.HRMS.entities.concretes.Users;
 
 public interface UserService {
 	
+	
 	List<Users> getAll();
-
+	
+	//USER CONTROLLER YAZILACAK
 }

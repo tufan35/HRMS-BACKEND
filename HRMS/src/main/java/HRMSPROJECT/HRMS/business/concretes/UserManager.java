@@ -20,7 +20,7 @@ public class UserManager implements UserService{
 	}
 
 
-	@Override
+	@Override 
 	public List<Users> getAll() {
 		
 		return this.userDao.findAll();

@@ -21,7 +21,7 @@ public class JobsManager implements JobsService {
 	}
 
 
-	@Override
+	@Override 
 	public List<Jobs> getAll() {
 		
 		return this.jobsDao.findAll();

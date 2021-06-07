@@ -10,6 +10,8 @@ import lombok.Data;
 
 @Data
 @Entity
+//@AllArgsConstructor
+//@NoArgsConstructor
 
 @Table(name = "jobs")
 public class Jobs {
